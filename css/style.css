@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap");
+*,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  background-image: url("../assets/imgs/fond-desktop.jpg");
+}
+
+.layout {
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.layout::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .layout {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.logos {
+  width: 100%;
+}
+
+.logos img {
+  max-width: 100%;
+  display: block;
+  margin: 40px auto 0;
+}
+
+.content {
+  height: 100%;
+  background-color: #273467;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+  margin: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 992px) {
+  .content {
+    margin: 0 15px 0 auto;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 330px;
+            flex: 0 0 330px;
+  }
+}
+
+.bouton {
+  border-radius: 20px;
+  padding: 10px 30px;
+  background-color: #a91315;
+  border: 2px solid white;
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+footer {
+  background-color: #a91315;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 15px;
+  font-size: 7px;
+}
+
+@media (min-width: 992px) {
+  footer {
+    font-size: 12px;
+  }
+}
+
+.home .village {
+  position: absolute;
+  top: 243px;
+  left: -100px;
+}
+
+.home .plat {
+  position: absolute;
+  top: 380px;
+  left: 160px;
+}
+/*# sourceMappingURL=style.css.map */
