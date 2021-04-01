@@ -1,5 +1,5 @@
 <footer>
-  <a href="">Accueil</a>
+  <a href="home.php">Accueil</a>
   <a href="reglement.php">Règlement</a>
   <a href="">Dotations</a>
   <a href="mentions-legales.php">Mentions légales</a>
