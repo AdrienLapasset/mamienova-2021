@@ -15,7 +15,7 @@
   <div class="layout">
     <?php include 'partials/logos.php'; ?>
     <div class="content">
-      <img class="mt-4 mb-3" src="/assets/imgs/des-milliers-de-cadeaux.png" alt="">
+      <img class="img-fluid mt-4 mb-3" src="/assets/imgs/des-milliers-de-cadeaux.png" alt="">
 
       <form action="">
         <div class="input-container">

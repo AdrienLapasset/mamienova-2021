@@ -135,13 +135,13 @@ footer {
 .home .village {
   position: absolute;
   top: 243px;
-  left: -100px;
+  left: -70px;
 }
 
 .home .plat {
   position: absolute;
-  top: 380px;
-  left: 160px;
+  top: 370px;
+  left: 230px;
 }
 
 .formulaire form .input-container {
