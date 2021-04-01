@@ -27,28 +27,31 @@ a:hover {
 }
 
 body {
-  background-size: cover;
-  background-position: center;
   width: 100%;
-  background-image: url("../assets/imgs/fond-desktop.jpg");
-}
-
-.layout {
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  overflow-y: scroll;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+}
+
+.layout {
+  background-size: cover;
+  background-position: center;
+  background-image: url("../assets/imgs/fond-desktop.jpg");
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.layout::-webkit-scrollbar {
-  display: none;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
 }
 
 @media (min-width: 992px) {
@@ -93,8 +96,8 @@ body {
   .content {
     margin: 0 15px 0 auto;
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 330px;
-            flex: 0 0 330px;
+        -ms-flex: 0 0 400px;
+            flex: 0 0 400px;
   }
 }
 
@@ -110,6 +113,9 @@ body {
 }
 
 footer {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
   background-color: #a91315;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -136,5 +142,83 @@ footer {
   position: absolute;
   top: 380px;
   left: 160px;
+}
+
+.formulaire form .input-container {
+  margin: auto;
+  max-width: 250px;
+}
+
+.formulaire form input:not([type="checkbox"]),
+.formulaire form label:not([type="checkbox"]) {
+  background-color: white;
+  width: 100%;
+  border: none;
+  margin-bottom: 10px;
+  padding: 7px;
+  text-align: left;
+  color: #565656;
+}
+
+.formulaire form input:not([type="checkbox"])::-webkit-input-placeholder,
+.formulaire form label:not([type="checkbox"])::-webkit-input-placeholder {
+  color: #565656;
+}
+
+.formulaire form input:not([type="checkbox"]):-ms-input-placeholder,
+.formulaire form label:not([type="checkbox"]):-ms-input-placeholder {
+  color: #565656;
+}
+
+.formulaire form input:not([type="checkbox"])::-ms-input-placeholder,
+.formulaire form label:not([type="checkbox"])::-ms-input-placeholder {
+  color: #565656;
+}
+
+.formulaire form input:not([type="checkbox"])::placeholder,
+.formulaire form label:not([type="checkbox"])::placeholder {
+  color: #565656;
+}
+
+.formulaire form input[type="file"],
+.formulaire form label[type="file"] {
+  display: none;
+}
+
+.formulaire form p {
+  text-align: left;
+  color: white;
+  line-height: 12px;
+  margin-bottom: 10px;
+  font-size: 9px;
+}
+
+.formulaire form .checkbox {
+  margin: 10px 0 10px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.formulaire form .checkbox input {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 15px;
+          flex: 0 0 15px;
+  height: 15px;
+}
+
+.formulaire form .checkbox label {
+  background-color: transparent;
+  color: white;
+  margin-left: 5px;
+  margin-bottom: 0;
+  padding: 0;
+  font-size: 9px;
 }
 /*# sourceMappingURL=style.css.map */
