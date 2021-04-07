@@ -29,7 +29,7 @@
           <input type="file" id="preuve" required>
           <p>*Mentions obligatoires. Ces informations permettront de vous
             contacter en cas de gain.</p>
-          <p>Conservez vos preuves d’achats, elles vous seront demandées en cas de gain </p>
+          <p class="orange">Conservez vos preuves d’achats, elles vous seront demandées en cas de gain </p>
         </div>
 
         <div class="checkbox">

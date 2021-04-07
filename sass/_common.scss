@@ -8,12 +8,13 @@ body {
 .layout {
   background-size: cover;
   background-position: center;
-  background-image: url("../assets/imgs/fond-desktop.jpg");
   flex-direction: column;
   display: flex;
   flex: 1 0 auto;
+  background-image: url("../assets/imgs/fond-mobile.jpg");
 
   @include media-breakpoint-up(lg) {
+    background-image: url("../assets/imgs/fond-desktop.jpg");
     flex-direction: row;
   }
 }

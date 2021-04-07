@@ -26,8 +26,11 @@
       text-align: left;
       color: white;
       line-height: 12px;
-      margin-bottom: 10px;
+      margin-bottom: 5px;
       font-size: 9px;
+      &.orange {
+        color: #f7c700;
+      }
     }
     .checkbox {
       margin: 10px 0 10px 40px;
