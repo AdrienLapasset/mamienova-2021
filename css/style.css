@@ -163,6 +163,10 @@ footer a {
   left: 230px;
 }
 
+.formulaire form {
+  width: 100%;
+}
+
 .formulaire form .input-container {
   margin: auto;
   max-width: 250px;
