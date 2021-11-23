@@ -1,5 +1,5 @@
 // Fonts
-@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 // Bootstrap media breakpoints
 @import "../modules/bootstrap-4.5.3/scss/functions";
@@ -7,10 +7,10 @@
 @import "../modules/bootstrap-4.5.3/scss/mixins/_breakpoints";
 
 // Colors
-$gold: #f7e285;
+$blue: #292757;
 
 // Partials
 @import "base";
 @import "common";
 @import "home";
-@import "formulaire";
+@import "header";
