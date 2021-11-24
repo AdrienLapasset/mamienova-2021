@@ -1,5 +1,3 @@
-</div>
-<!-- End of container-fluid -->
 <footer>
   <!-- <a href="home.php">Accueil</a>
   <a href="assets/2702_Reglement_Raynal_Roquelaure.pdf">Règlement</a>

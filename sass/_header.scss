@@ -1,8 +1,12 @@
 .navbar {
-  width: 100%;
   @include media-breakpoint-up(md) {
-    position: absolute;
     background-color: $blue;
+  }
+  .navbar-toggler {
+    border: none;
+    &:focus {
+      border: none;
+    }
   }
   .navbar-collapse {
     justify-content: center;
@@ -53,14 +57,16 @@
 }
 
 .brand-logo {
-  position: relative;
-  display: block;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 35px;
+  position: absolute;
   width: 388px;
   max-width: 100%;
-  margin: -35px auto 0;
   @include media-breakpoint-up(md) {
-    margin: auto;
     width: 258px;
+    top: 10px;
   }
   @include media-breakpoint-up(xxl) {
     width: 668px;
