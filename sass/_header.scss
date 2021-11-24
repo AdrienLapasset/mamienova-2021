@@ -1,29 +1,26 @@
 header {
-  background-color: $blue;
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  nav {
-    display: flex;
-    align-items: center;
-    transform: translateX(80px);
-  }
-  a {
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 600;
-    margin: 0 15px;
+  .navbar {
+    background-color: $blue;
+    position: absolute;
+    width: 100%;
+    .navbar-nav {
+      .nav-link {
+        color: white;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0 15px;
+        img {
+          width: 40px;
+        }
+      }
+    }
   }
   .space {
-    width: 600px;
+    width: 400px;
   }
-  img:not(.img-fluid) {
-    width: 40px;
-    margin: 0 10px;
-  }
+
   .img-fluid {
-    top: 10px;
-    position: absolute;
     width: 668px;
   }
 }
