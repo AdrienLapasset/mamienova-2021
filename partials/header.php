@@ -11,16 +11,13 @@
 </head>
 
 <header>
-  <nav class="navbar navbar-expand-lg navbar-dark">
+  <nav class="navbar navbar-expand-md navbar-dark">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbar">
-        <div class="navbar-nav mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
+        <div class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="#">accueil</a>
           </li>
@@ -28,6 +25,9 @@
             <a class="nav-link" href="#">à gagner</a>
           </li>
           <li class="space"></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">comment participer ?</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#"><img src="assets/imgs/instagram.png" alt=""></a>
           </li>
@@ -41,5 +41,6 @@
       </div>
     </div>
   </nav>
-  <img class="img-fluid" src="assets/imgs/logo.png" alt="">
 </header>
+<div class="container-fluid">
+  <img class="brand-logo" src="assets/imgs/logo.png" alt="">
