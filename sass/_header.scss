@@ -1,4 +1,5 @@
 .navbar {
+  background-color: $blue-light;
   @include media-breakpoint-up(md) {
     background-color: $blue;
   }
@@ -57,18 +58,17 @@
 }
 
 .brand-logo {
-  margin: auto;
-  left: 0;
-  right: 0;
-  top: 35px;
-  position: absolute;
+  position: relative;
+  margin: 0 auto -130px;
+  display: block;
   width: 388px;
   max-width: 100%;
   @include media-breakpoint-up(md) {
     width: 258px;
-    top: 10px;
+    margin: -60px auto;
   }
   @include media-breakpoint-up(xxl) {
     width: 668px;
+    margin: -60px auto -185px;
   }
 }
