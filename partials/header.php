@@ -35,24 +35,21 @@
             <li class="nav-item">
               <a class="nav-link" href="#">à gagner</a>
             </li>
-            <li class="space"></li>
+            <li class="space <?php echo $page ?>"></li>
             <li class="nav-item">
               <a class="nav-link" href="#">comment participer ?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><img src="assets/imgs/instagram.png" alt=""></a>
+              <a class="nav-link social" href="#"><img src="assets/imgs/instagram.png" alt=""></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><img src="assets/imgs/facebook.png" alt=""></a>
+              <a class="nav-link social" href="#"><img src="assets/imgs/facebook.png" alt=""></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><img src="assets/imgs/www.png" alt=""></a>
+              <a class="nav-link social" href="#"><img src="assets/imgs/www.png" alt=""></a>
             </li>
           </div>
         </div>
       </div>
     </nav>
   </header>
-  <div class="container-fluid">
-    <img class="brand-logo" src="assets/imgs/logo.png" alt="">
-  </div>

@@ -4,4 +4,9 @@
     background-size: cover;
     background-position: right;
   }
+  .brand-logo {
+    @include media-breakpoint-up($xxl) {
+      width: 500px;
+    }
+  }
 }

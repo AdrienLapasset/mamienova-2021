@@ -1,15 +1,20 @@
-<?php include 'partials/header.php'; ?>
+<?php
+function includeHeader($page)
+{
+  include("partials/header.php");
+}
+includeHeader('ishome')
+?>
 
 <div class="layout home">
+  <img class="brand-logo" src="assets/imgs/logo.png" alt="">
   <a href="question-1.php" class="btn btn-primary d-none d-md-block mx-auto mb-5 mb-xxl-0">Jouer</a>
-  <div class="mt-auto d-flex flex-column flex-xxl-row-reverse justify-content-xxl-end align-items-xxl-center">
+  <div class="mt-auto d-flex flex-column flex-xxl-row-reverse justify-content-xxl-end align-items-xxl-end">
     <div class="align-self-center">
-      <div class="container-fluid">
-        <img class="img-fluid pb-md-4 pb-xxl-0" src="assets/imgs/bloc-a-gagner.png" alt="">
-      </div>
+      <img width="400" class="d-block m-auto m-xxl-0 img-fluid pb-md-4 pb-xxl-0" src="assets/imgs/bloc-a-gagner.png" alt="">
     </div>
     <div class="d-none d-xxl-block">
-      <img class="img-fluid" src="assets/imgs/home-canape.png" alt="">
+      <img class="img-fluid" width="800" src="assets/imgs/home-canape.png" alt="">
     </div>
     <div class="d-none d-md-block d-xxl-none">
       <img class="img-fluid" src="assets/imgs/home-canape-tablet.png" alt="">
