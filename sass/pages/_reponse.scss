@@ -1,0 +1,32 @@
+.reponse {
+  &.reponse-1 {
+    @include pageBackground("../assets/imgs/bg-reponse-1.jpg");
+  }
+  .form-block {
+    max-width: 500px;
+    text-align: center;
+    position: relative;
+    &:before {
+      content: "";
+      display: inline-block;
+      height: 0;
+      width: 0;
+      border-top: 30px solid $blue;
+      border-left: 30px solid transparent;
+      position: absolute;
+      bottom: -30px;
+      right: 30px;
+    }
+    &:after {
+      content: "";
+      display: inline-block;
+      height: 0;
+      width: 0;
+      border-top: 20px solid white;
+      border-left: 20px solid transparent;
+      position: absolute;
+      bottom: -19px;
+      right: 35px;
+    }
+  }
+}
