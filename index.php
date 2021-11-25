@@ -4,7 +4,9 @@
   <button class="btn btn-primary d-none d-md-block mx-auto mb-5 mb-xxl-0">Jouer</button>
   <div class="mt-auto d-flex flex-column flex-xxl-row-reverse justify-content-xxl-end align-items-xxl-center">
     <div class="align-self-center">
-      <img class="img-fluid p-xxl-4" src="assets/imgs/bloc-a-gagner.png" alt="">
+      <div class="container-fluid">
+        <img class="img-fluid pb-md-4 pb-xxl-0" src="assets/imgs/bloc-a-gagner.png" alt="">
+      </div>
     </div>
     <div class="d-none d-xxl-block">
       <img class="img-fluid" src="assets/imgs/home-canape.png" alt="">

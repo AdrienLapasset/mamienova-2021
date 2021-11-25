@@ -1,18 +1,10 @@
 // Import Fonts
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
-
-// Import Bootstrap breakpoints
-@import "../modules/bootstrap-5.1.3/scss/functions";
-@import "../modules/bootstrap-5.1.3/scss/variables";
-@import "../modules/bootstrap-5.1.3/scss/mixins/_breakpoints";
-
-// Colors
-$blue: #292757;
-$blue-light: #00aff2;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 // Partials
-@import "base";
-@import "common";
-@import "home";
-@import "header";
-@import "footer";
+@import "global/variables&mixins";
+@import "global/base";
+@import "global/common";
+@import "global/header";
+@import "global/footer";
+@import "pages/home";

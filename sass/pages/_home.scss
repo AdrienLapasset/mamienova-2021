@@ -1,0 +1,7 @@
+.home {
+  @include media-breakpoint-up($xxl) {
+    background-image: url("../assets/imgs/bg-home.jpg");
+    background-size: cover;
+    background-position: right;
+  }
+}

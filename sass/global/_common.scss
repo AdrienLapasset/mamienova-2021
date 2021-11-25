@@ -1,0 +1,31 @@
+.layout {
+  background-color: $blue-light;
+  padding-top: 150px;
+  min-height: calc(100vh - 72px);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  @include media-breakpoint-up($md) {
+    padding-top: 100px;
+    background-image: url("../assets/imgs/bg-tablet.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  @include media-breakpoint-up($xxl) {
+    padding-top: 250px;
+  }
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  border: solid 3px #fff;
+  border-radius: 20px;
+  box-shadow: 6.3px 7.8px 0 0 #98d3f3;
+  padding: 0 45px;
+  text-transform: uppercase;
+  &.btn-primary {
+    background-color: $blue;
+  }
+}
