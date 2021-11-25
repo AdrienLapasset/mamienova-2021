@@ -1,7 +1,7 @@
 <?php include 'partials/header.php'; ?>
 
 <div class="layout home">
-  <button class="btn btn-primary d-none d-md-block mx-auto mb-5 mb-xxl-0">Jouer</button>
+  <a href="question-1.php" class="btn btn-primary d-none d-md-block mx-auto mb-5 mb-xxl-0">Jouer</a>
   <div class="mt-auto d-flex flex-column flex-xxl-row-reverse justify-content-xxl-end align-items-xxl-center">
     <div class="align-self-center">
       <div class="container-fluid">

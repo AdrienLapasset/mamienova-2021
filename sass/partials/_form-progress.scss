@@ -1,0 +1,63 @@
+.form-progress {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  &:after {
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 6px;
+    background-color: $red;
+    top: 20px;
+    margin: auto;
+  }
+  .step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    .number-container {
+      position: relative;
+      z-index: 1;
+      .bulle {
+        width: 40px;
+      }
+      .number {
+        position: absolute;
+        top: 4px;
+        left: 14px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-size: 22px;
+        opacity: 0.5;
+      }
+    }
+    .title {
+      color: rgba(255, 77, 3, 0.7);
+      font-size: 15px;
+      margin-top: 5px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    &.active {
+      .bulle {
+        width: 100%;
+        position: relative;
+        top: -5px;
+      }
+      .number {
+        top: 0px;
+        left: 21px;
+        opacity: 1;
+        font-size: 30px;
+      }
+      .title {
+        font-size: 17px;
+        color: $red;
+      }
+    }
+  }
+}
