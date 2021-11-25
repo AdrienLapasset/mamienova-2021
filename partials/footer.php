@@ -1,12 +1,13 @@
 <footer>
-  <div class="container-fluid d-flex justify-content-center">
-    <div class="text-center">
-      <a href="#">Mentions Légales</a>
-      <a href="#">Politique de protection des données personnelles</a>
-      <a href="#">règlement jeu instant gagnant</a>
-      <a href="#">règlement jeu tirage au sort</a>
+  <div class="container-fluid">
+    <div class="d-flex justify-content-center  text-center">
+      <div class="">
+        <a href="#">Mentions Légales</a>
+        <a href="#">Politique de protection des données personnelles</a>
+        <a href="#">règlement jeu instant gagnant</a>
+        <a href="#">règlement jeu tirage au sort</a>
+      </div>
     </div>
-  </div>
 </footer>
 
 <!-- Script import -->

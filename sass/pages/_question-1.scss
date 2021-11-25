@@ -1,2 +1,13 @@
 .question-1 {
+  @include pageBackground("../../assets/imgs/bg-question-1.jpg");
+  h1,
+  p {
+    text-align: center;
+  }
+  label {
+    font-family: "Poppins", sans-serif;
+    font-size: 19.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
 }

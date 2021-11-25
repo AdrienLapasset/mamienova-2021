@@ -37,4 +37,29 @@
   &.btn-primary {
     background-color: $blue;
   }
+  &.btn-red {
+    background-color: $red;
+    color: white;
+  }
+}
+
+.form-block {
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 6.9px 8.5px 0 0 #1e1e4c;
+  padding: 42px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: $blue;
+}
+
+p {
+  font-size: 24px;
+}
+
+.red {
+  color: $red;
 }

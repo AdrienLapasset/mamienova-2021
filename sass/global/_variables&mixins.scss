@@ -17,3 +17,11 @@ $xxl: 1400px;
     @content;
   }
 }
+
+@mixin pageBackground($imgUrl) {
+  @include media-breakpoint-up($xxl) {
+    background-image: url($imgUrl);
+    background-size: cover;
+    background-position: center;
+  }
+}
