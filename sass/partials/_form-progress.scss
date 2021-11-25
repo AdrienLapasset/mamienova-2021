@@ -5,12 +5,15 @@
   position: relative;
   &:after {
     content: "";
+    width: 60%;
     position: absolute;
-    width: 400px;
     height: 6px;
     background-color: $red;
     top: 20px;
     margin: auto;
+    @include media-breakpoint-up($md) {
+      width: 400px;
+    }
   }
   .step {
     display: flex;
