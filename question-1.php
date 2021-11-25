@@ -4,7 +4,7 @@
   <img class="brand-logo" src="assets/imgs/logo.png" alt="">
   <div class="container d-flex flex-column">
     <?php include 'partials/form-progress.php'; ?>
-    <div class="form-block d-flex flex-column align-items-center">
+    <div class="form-block d-flex flex-column align-items-center mx-auto">
       <h1 class="mb-4">Vive les Mamies ! Pour leur fête,
         Mamie Nova présente « Dis, Mamie ? »</h1>
       <p>Au programme : une délicieuse complicité, des moments savoureux,<br class="d-none d-xxl-block" />
@@ -15,14 +15,14 @@
         <b>Pour commencer, sélectionnez le(s) produit(s) que vous avez acheté(s)</b>
       </p>
       <div class="d-flex flex-column flex-xxl-row">
-        <div class="d-flex align-items-center mb-4 mb-xxl-0 me-xxl-4">
+        <div class="d-flex align-items-center mb-4 mb-xxl-0 me-xxl-2">
           <input type="radio" id="#" name="#" value="#" checked>
           <label class="mx-3">J’ai 2 codes<br />uniques
             <span type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
               <div class="modal-btn">?</div>
             </span>
           </label>
-          <img src="assets/imgs/pots-avec-code.png" alt="">
+          <img class="w-50" src="assets/imgs/pots-avec-code.png" alt="">
         </div>
         <div class="d-flex align-items-center">
           <input type="radio" id="#" name="#" value="#" checked>
@@ -31,7 +31,7 @@
               <div class="modal-btn">?</div>
             </span>
           </label>
-          <img src="assets/imgs/pots-sans-code.png" alt="">
+          <img class="w-50" src="assets/imgs/pots-sans-code.png" alt="">
         </div>
       </div>
     </div>

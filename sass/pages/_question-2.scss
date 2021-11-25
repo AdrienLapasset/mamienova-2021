@@ -1,5 +1,7 @@
 .question-2 {
+  @include pageBackground("../assets/imgs/bg-question-2.jpg");
   .questions-container {
+    position: relative;
     img {
       width: 200px;
       margin: 15px 0;
@@ -7,8 +9,19 @@
         margin: 0 15px;
       }
       @include media-breakpoint-up($xxl) {
-        width: 300px;
+        width: 200px;
       }
+    }
+  }
+  .mamie {
+    display: none;
+    @include media-breakpoint-up($xxl) {
+      display: block;
+      bottom: 40px;
+      left: -200px;
+      bottom: -143px;
+      width: 150px;
+      position: absolute;
     }
   }
 }
