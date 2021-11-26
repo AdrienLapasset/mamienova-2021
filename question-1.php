@@ -7,15 +7,15 @@
     <div class="form-block d-flex flex-column align-items-center mx-auto">
       <h1 class="mb-4">Vive les Mamies ! Pour leur fête,
         Mamie Nova présente « Dis, Mamie ? »</h1>
-      <p>Au programme : une délicieuse complicité, des moments savoureux,<br class="d-none d-xxl-block" />
-        et des anecdotes inédites !<br class="d-none d-xxl-block" />
+      <p>Au programme : une délicieuse complicité, des moments savoureux,<br class="d-none d-xl-block" />
+        et des anecdotes inédites !<br class="d-none d-xl-block" />
         <b>Vous allez prendre plaisir à re-découvrir Mamie Nova...</b>
       </p>
       <p class="red mb-4">
         <b>Pour commencer, sélectionnez le(s) produit(s) que vous avez acheté(s)</b>
       </p>
-      <div class="d-flex flex-column flex-xxl-row">
-        <div class="d-flex align-items-center mb-4 mb-xxl-0 me-xxl-2">
+      <div class="d-flex flex-column flex-xl-row">
+        <div class="d-flex align-items-center mb-4 mb-xl-0 me-xl-2">
           <input type="radio" id="#" name="#" value="#" checked>
           <label class="mx-3">J’ai 2 codes<br />uniques
             <span type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">

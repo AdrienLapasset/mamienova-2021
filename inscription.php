@@ -1,0 +1,90 @@
+<?php include 'partials/header.php'; ?>
+
+<div class="layout inscription">
+  <img class="brand-logo" src="assets/imgs/logo.png" alt="">
+  <div class="container d-flex flex-column">
+    <?php include 'partials/form-progress.php'; ?>
+    <form>
+      <div class="form-block mx-auto">
+        <h1>
+          remplissez le formulaire
+          et découvrez si vous avez gagné !
+        </h1>
+        <p class="mentions">*mentions obligatoires</p>
+        <h2>Vos coordonnées</h2>
+        <div class="inputs-container">
+          <div class="row g-1">
+            <div class="col-4 d-flex align-items-center">
+              <label class="me-1" for="">Mr.</label>
+              <input class="me-1 me-md-3" type="radio" id="" name="" value="">
+              <label class="me-1" for="">Mme.</label>
+              <input type="radio" id="" name="" value="">
+            </div>
+            <div class="col-8">
+              <input type="text" id="" name="" placeholder="Nom*"><br>
+            </div>
+            <div class="col-6">
+              <input type="text" id="" name="" placeholder="Prénom*"><br>
+            </div>
+            <div class="col-6">
+              <input type="text" id="" name="" placeholder="Téléphone*"><br>
+            </div>
+            <div class="col-12">
+              <input type="text" id="" name="" placeholder="Adresse postale*"><br>
+            </div>
+            <div class="col-6">
+              <input type="text" id="" name="" placeholder="Code postal*"><br>
+            </div>
+            <div class="col-6">
+              <input type="text" id="" name="" placeholder="Ville*"><br>
+            </div>
+            <div class="col-12">
+              <input type="text" id="" name="" placeholder="Adresse email*"><br>
+            </div>
+          </div>
+          <h2 class="mt-4">
+            Quels sont les codes inscrits<br />
+            aux versos de vos packs ?*
+          </h2>
+          <div class="d-flex flex-column align-items-center">
+            <input class="code" type="text" id="" name="">
+            <div class="dotted-line">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <input class="code mt-1" type="text" id="" name="">
+            <div class="dotted-line">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="checkbox-container">
+          <input type="checkbox" id="scales" name="scales">
+          <label for="scales">En cochant cette case, vous acceptez la politique de protections des données personnelles</label>
+        </div>
+        <div class="checkbox-container">
+          <input type="checkbox" id="scales" name="scales">
+          <label for="scales">En cochant cette case, vous acceptez le règlement du jeu.</label>
+        </div>
+        <div class="checkbox-container">
+          <input type="checkbox" id="scales" name="scales">
+          <label for="scales">Je souhaite recevoir des offres et être abonné(e) aux dernières nouveautés Mamie Nova</label>
+        </div>
+      </div>
+      <input class="btn btn-red mx-auto d-block my-5" type="submit" value="valider"></input>
+    </form>
+  </div>
+</div>
+
+<?php include 'partials/footer.php'; ?>

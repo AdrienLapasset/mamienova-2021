@@ -1,0 +1,73 @@
+.inscription {
+  .form-block {
+    max-width: 600px;
+  }
+  h2 {
+    color: $red;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .mentions {
+    font-size: 12px;
+    text-align: center;
+  }
+  .inputs-container {
+    margin-bottom: 20px;
+    font-size: 12px;
+    @include media-breakpoint-up($md) {
+      padding: 0 70px;
+    }
+  }
+  label {
+    font-size: 12px;
+  }
+  input[type="text"] {
+    width: 100%;
+    border-radius: 10px;
+    background-color: $blue;
+    color: white;
+    padding: 5px 20px;
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.71);
+      font-style: italic;
+    }
+    &.code {
+      height: 45px;
+      letter-spacing: 24px;
+      font-size: 18px;
+      padding-left: 24px;
+      width: 280px;
+      @include media-breakpoint-up($md) {
+        padding-left: 74px;
+        width: 100%;
+      }
+    }
+  }
+  .dotted-line {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 12px;
+    span {
+      margin-right: 7px;
+      display: block;
+      height: 2px;
+      width: 28px;
+      background-color: rgba(255, 255, 255, 0.71);
+    }
+  }
+  .checkbox-container {
+    display: flex;
+    input {
+      flex: 0 0 30px;
+      position: relative;
+      top: 2px;
+    }
+    label {
+      font-size: 10px;
+    }
+  }
+}
