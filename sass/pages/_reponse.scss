@@ -1,7 +1,4 @@
 .reponse {
-  &.reponse-1 {
-    @include pageBackground("../assets/imgs/bg-reponse-1.jpg");
-  }
   .form-block {
     max-width: 500px;
     text-align: center;
@@ -27,6 +24,15 @@
       position: absolute;
       bottom: -19px;
       right: 35px;
+    }
+  }
+  &.reponse-1 {
+    @include pageBackground("../assets/imgs/bg-reponse-1.jpg");
+    .form-block {
+      box-shadow: 6.9px 8.5px 0 0 #0172f6;
+      &:before {
+        border-top: 30px solid #0172f6;
+      }
     }
   }
 }

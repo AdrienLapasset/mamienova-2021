@@ -19,7 +19,7 @@ $xxl: 1400px;
 }
 
 @mixin pageBackground($imgUrl) {
-  @include media-breakpoint-up($xxl) {
+  @include media-breakpoint-up($xl) {
     background-image: url($imgUrl);
     background-size: cover;
     background-position: center;

@@ -1,6 +1,6 @@
 .layout {
   background-color: $blue-light;
-  min-height: calc(100vh - 30px);
+  min-height: calc(100vh - 20px);
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -15,12 +15,12 @@
   max-width: 100%;
   z-index: 1;
   width: 388px;
-  margin: 0 auto 20px;
-  padding: 0 15px;
+  margin: 0 auto;
+  padding: 15px;
   @include media-breakpoint-up($md) {
     width: 258px;
   }
-  @include media-breakpoint-up($xxl) {
+  @include media-breakpoint-up($xl) {
     width: 332px;
   }
 }

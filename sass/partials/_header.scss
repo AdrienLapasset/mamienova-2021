@@ -1,14 +1,17 @@
 header {
+  margin-bottom: -40px;
   @include media-breakpoint-up($md) {
-    margin-bottom: -40px;
+    margin-bottom: -50px;
   }
-  @include media-breakpoint-up($xxl) {
+  @include media-breakpoint-up($xl) {
     margin-bottom: -60px;
   }
   .navbar {
     background-color: $blue-light;
     @include media-breakpoint-up($md) {
       background-color: $blue;
+      padding-top: 0;
+      padding-bottom: 0;
     }
     .navbar-toggler {
       border: none;
@@ -36,19 +39,19 @@ header {
               padding-left: 5px;
               padding-right: 5px;
             }
-            @include media-breakpoint-up($xxl) {
+            @include media-breakpoint-up($xl) {
               padding-left: 10px;
               padding-right: 10px;
               font-size: 16px;
             }
             img {
               width: 25px;
-              @include media-breakpoint-up($xxl) {
+              @include media-breakpoint-up($xl) {
                 width: 30px;
               }
             }
             &.social {
-              @include media-breakpoint-up($xxl) {
+              @include media-breakpoint-up($xl) {
                 padding-left: 5px;
                 padding-right: 5px;
               }
@@ -61,11 +64,11 @@ header {
             display: block;
             width: 240px;
           }
-          @include media-breakpoint-up($xxl) {
+          @include media-breakpoint-up($xl) {
             width: 300px;
           }
           &.ishome {
-            @include media-breakpoint-up($xxl) {
+            @include media-breakpoint-up($xl) {
               width: 450px;
             }
           }

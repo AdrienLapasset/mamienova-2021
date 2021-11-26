@@ -16,9 +16,9 @@
       <a href="reponse-3.php">
         <img class="img-fluid" src="assets/imgs/question-3.png" alt="">
       </a>
-      <img class="mamie" src="assets/imgs/mamie-question-2.png" alt="">
     </div>
   </div>
+  <img class="mamie" src="assets/imgs/mamie-question-2.png" alt="">
 </div>
 
 <?php include 'partials/footer.php'; ?>
