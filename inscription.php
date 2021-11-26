@@ -43,7 +43,7 @@
             </div>
           </div>
           <h2 class="mt-4">
-            Quels sont les codes inscrits<br />
+            Quels sont les codes inscrits<br class="d-none d-sm-block" />
             aux versos de vos packs ?*
             <span type="button" data-bs-toggle="modal" data-bs-target="#modal">
               <div class="modal-btn">?</div>
