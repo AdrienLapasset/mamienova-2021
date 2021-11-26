@@ -68,3 +68,36 @@ p {
 .red {
   color: $red;
 }
+
+.modal-btn {
+  position: relative;
+  top: -3px;
+  width: 15px;
+  height: 15px;
+  border-radius: 20px;
+  color: white;
+  background-color: $red;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  .modal-content {
+    text-align: center;
+    padding: 40px 60px;
+    .close-btn {
+      position: absolute;
+      top: -20px;
+      right: -17px;
+    }
+    h2 {
+      font-size: 24px;
+      font-weight: 700;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}

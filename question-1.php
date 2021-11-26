@@ -18,7 +18,7 @@
         <div class="d-flex align-items-center mb-4 mb-xl-0 me-xl-2">
           <input type="radio" id="#" name="#" value="#" checked>
           <label class="mx-3">J’ai 2 codes<br />uniques
-            <span type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <span type="button" data-bs-toggle="modal" data-bs-target="#modal">
               <div class="modal-btn">?</div>
             </span>
           </label>
@@ -27,7 +27,7 @@
         <div class="d-flex align-items-center">
           <input type="radio" id="#" name="#" value="#" checked>
           <label class="mx-3">je n’ai pas de<br />code unique
-            <span type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <span type="button" data-bs-toggle="modal" data-bs-target="#modal">
               <div class="modal-btn">?</div>
             </span>
           </label>
@@ -39,7 +39,7 @@
   </div>
 
   <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="modal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <svg type="button" class="close-btn" data-bs-dismiss="modal" aria-label="Close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38px" height="38px">
