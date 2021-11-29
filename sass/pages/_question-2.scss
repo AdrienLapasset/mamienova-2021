@@ -1,4 +1,9 @@
 .question-2 {
+  @include media-breakpoint-up($md) {
+    background-image: url("../assets/imgs/bg-tablet-question-2.jpg");
+    background-size: cover;
+    background-position: center;
+  }
   @include pageBackground("../assets/imgs/bg-question-2.jpg");
   .questions-container {
     position: relative;
