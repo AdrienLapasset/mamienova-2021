@@ -1,4 +1,5 @@
 .participer {
+  @include pageBackground("../assets/imgs/bg-participer.jpg");
   .block {
     background-color: white;
     border-radius: 26px;

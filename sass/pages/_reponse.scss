@@ -35,4 +35,22 @@
       }
     }
   }
+  &.reponse-2 {
+    @include pageBackground("../assets/imgs/bg-reponse-2.jpg");
+    .form-block {
+      box-shadow: 6.9px 8.5px 0 0 #ffbca5;
+      &:before {
+        border-top: 30px solid #ffbca5;
+      }
+    }
+  }
+  &.reponse-3 {
+    @include pageBackground("../assets/imgs/bg-reponse-3.jpg");
+    .form-block {
+      box-shadow: 6.9px 8.5px 0 0 #ff7b30;
+      &:before {
+        border-top: 30px solid #ff7b30;
+      }
+    }
+  }
 }
