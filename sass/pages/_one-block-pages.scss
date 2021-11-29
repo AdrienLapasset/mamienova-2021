@@ -8,7 +8,10 @@
     font-size: 14px;
     font-family: "Lato", sans-serif;
   }
-  &.perdu {
-    @include pageBackground("../assets/imgs/bg-perdu.jpg");
-  }
+}
+.perdu {
+  @include pageBackground("../assets/imgs/bg-perdu.jpg");
+}
+.a-gagner {
+  @include pageBackground("../assets/imgs/bg-a-gagner.jpg");
 }

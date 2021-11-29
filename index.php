@@ -18,6 +18,8 @@ includeHeader('ishome')
       <a class="list-group-item list-group-item-action" href="/gagne-tas.php">gagne-tas</a>
       <a class="list-group-item list-group-item-action" href="/gagne-ig.php">gagne-ig</a>
       <a class="list-group-item list-group-item-action" href="/perdu.php">perdu</a>
+      <a class="list-group-item list-group-item-action" href="/a-gagner.php">a gagner</a>
+      <a class="list-group-item list-group-item-action" href="/participer.php">participer</a>
     </div>
   </div>
 </div>

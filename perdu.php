@@ -1,6 +1,6 @@
 <?php include 'partials/header.php'; ?>
 
-<div class="layout gagne perdu">
+<div class="layout perdu">
   <img class="brand-logo" src="assets/imgs/logo.png" alt="">
   <div class="container d-flex flex-column align-items-center">
     <img class="img-fluid mt-4" width="350" src="assets/imgs/perdu.png" alt="">
