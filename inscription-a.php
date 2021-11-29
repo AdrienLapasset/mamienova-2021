@@ -21,25 +21,25 @@
               <input type="radio" id="" name="" value="">
             </div>
             <div class="col-8">
-              <input type="text" id="" name="" placeholder="Nom*"><br>
+              <input type="text" id="" name="" placeholder="Nom*">
             </div>
             <div class="col-6">
-              <input type="text" id="" name="" placeholder="Prénom*"><br>
+              <input type="text" id="" name="" placeholder="Prénom*">
             </div>
             <div class="col-6">
-              <input type="text" id="" name="" placeholder="Téléphone*"><br>
+              <input type="text" id="" name="" placeholder="Téléphone*">
             </div>
             <div class="col-12">
-              <input type="text" id="" name="" placeholder="Adresse postale*"><br>
+              <input type="text" id="" name="" placeholder="Adresse postale*">
             </div>
             <div class="col-6">
-              <input type="text" id="" name="" placeholder="Code postal*"><br>
+              <input type="text" id="" name="" placeholder="Code postal*">
             </div>
             <div class="col-6">
-              <input type="text" id="" name="" placeholder="Ville*"><br>
+              <input type="text" id="" name="" placeholder="Ville*">
             </div>
             <div class="col-12">
-              <input type="text" id="" name="" placeholder="Adresse email*"><br>
+              <input type="text" id="" name="" placeholder="Adresse email*">
             </div>
           </div>
           <h2 class="mt-4">
@@ -85,7 +85,7 @@
           <label for="scales">Je souhaite recevoir des offres et être abonné(e) aux dernières nouveautés Mamie Nova</label>
         </div>
       </div>
-      <input class="btn btn-red mx-auto d-block my-5" type="submit" value="valider"></input>
+      <input class="btn btn-red mx-auto d-block my-4" type="submit" value="valider"></input>
     </form>
   </div>
 </div>
