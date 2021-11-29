@@ -4,7 +4,11 @@
   p {
     text-align: center;
   }
+  input {
+    cursor: pointer;
+  }
   label {
+    cursor: pointer;
     font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-weight: 700;

@@ -1,0 +1,36 @@
+.modal-btn {
+  width: 15px;
+  height: 15px;
+  border-radius: 20px;
+  color: white;
+  background-color: $red;
+  display: inline-block;
+  cursor: pointer;
+  span {
+    font-size: 11px;
+    display: inline-block;
+    position: relative;
+    left: 4px;
+    font-weight: 700;
+  }
+}
+
+.modal {
+  .modal-content {
+    text-align: center;
+    padding: 40px 60px;
+    .close-btn {
+      cursor: pointer;
+      position: absolute;
+      top: -20px;
+      right: -17px;
+    }
+    h2 {
+      font-size: 24px;
+      font-weight: 700;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}

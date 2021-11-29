@@ -25,6 +25,7 @@
       infinite: true,
       slidesToShow: 3,
       slidesToScroll: 1,
+      variableWidth: true,
       prevArrow: '<img class="arrow prev" src="assets/icons/carousel-next-arrow.png">',
       nextArrow: '<img class="arrow next" src="assets/icons/carousel-next-arrow.png">'
     });

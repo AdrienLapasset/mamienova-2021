@@ -16,7 +16,7 @@
   <header>
     <nav class="navbar navbar-expand-md navbar-dark">
       <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
           <svg xmlns="http://www.w3.org/2000/svg" width="48.84" height="32.612" viewBox="0 0 68.374 45.656">
             <defs>
               <style>

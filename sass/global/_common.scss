@@ -14,12 +14,9 @@
 .brand-logo {
   max-width: 100%;
   z-index: 1;
-  width: 370px;
   margin: 0 auto;
   padding: 15px;
-  @include media-breakpoint-up($md) {
-    width: 240px;
-  }
+  width: 240px;
   @include media-breakpoint-up($xl) {
     width: 300px;
   }
@@ -70,37 +67,4 @@ p {
 
 .red {
   color: $red;
-}
-
-.modal-btn {
-  position: relative;
-  top: -3px;
-  width: 15px;
-  height: 15px;
-  border-radius: 20px;
-  color: white;
-  background-color: $red;
-  font-size: 11px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.modal {
-  .modal-content {
-    text-align: center;
-    padding: 40px 60px;
-    .close-btn {
-      position: absolute;
-      top: -20px;
-      right: -17px;
-    }
-    h2 {
-      font-size: 24px;
-      font-weight: 700;
-    }
-    p {
-      font-size: 20px;
-    }
-  }
 }
