@@ -28,7 +28,7 @@
         C’est fou d’être Mamie Nova !
       </p>
     </div>
-    <a class="btn btn-red mx-auto mt-5" href="inscription.php">suivant</a>
+    <a class="btn btn-red mx-auto my-5" href="inscription.php">suivant</a>
   </div>
 </div>
 

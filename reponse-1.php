@@ -23,7 +23,7 @@
         Mes petits secrets pour rester dans le coup (de cuillère) : <b>du plaisir, de la gourmandise, sans jamais culpabiliser !</b>
       </p>
     </div>
-    <a class="btn btn-red mx-auto mt-5" href="inscription-a.php">suivant</a>
+    <a class="btn btn-red mx-auto my-5" href="inscription-a.php">suivant</a>
   </div>
 </div>
 

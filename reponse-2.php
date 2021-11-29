@@ -22,7 +22,7 @@
         Fruits ou Chocolat ? Yaourts ou Desserts ? Pourquoi choisir ? Je multiplie les expériences gustatives sans suivre les codes. Je suis une mamie audacieuse !
       </p>
     </div>
-    <a class="btn btn-red mx-auto mt-5" href="inscription.php">suivant</a>
+    <a class="btn btn-red mx-auto my-5" href="inscription.php">suivant</a>
   </div>
 </div>
 

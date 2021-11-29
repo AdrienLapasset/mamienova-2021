@@ -32,14 +32,14 @@
         <div class="collapse navbar-collapse" id="navbar">
           <div class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">accueil</a>
+              <a class="nav-link" href="home.php">accueil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">à gagner</a>
+              <a class="nav-link" href="a-gagner.php">à gagner</a>
             </li>
             <li class="space <?php echo $page ?>"></li>
             <li class="nav-item">
-              <a class="nav-link" href="#">comment participer ?</a>
+              <a class="nav-link" href="participer.php">comment participer ?</a>
             </li>
             <li class="nav-item">
               <a class="nav-link social" href="#"><img src="assets/imgs/instagram.png" alt=""></a>

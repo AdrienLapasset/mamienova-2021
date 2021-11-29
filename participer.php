@@ -125,7 +125,7 @@
         </div>
       </div>
     </div>
-    <a class="btn btn-red mt-5 px-3" href="">participer</a>
+    <a class="btn btn-red mx-5 px-3" href="">participer</a>
   </div>
 </div>
 
