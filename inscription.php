@@ -4,7 +4,7 @@
   <img class="brand-logo" src="assets/imgs/logo.png" alt="">
   <div class="container d-flex flex-column">
     <?php include 'partials/form-progress.php'; ?>
-    <form>
+    <form action="gagne-tas.php">
       <div class="form-block mx-auto">
         <h1>
           remplissez le formulaire

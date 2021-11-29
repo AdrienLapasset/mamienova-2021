@@ -34,12 +34,15 @@
   box-shadow: 6.3px 7.8px 0 0 #1aa1f3;
   padding: 0 45px;
   text-transform: uppercase;
+  color: white;
   &.btn-primary {
     background-color: $blue;
   }
   &.btn-red {
     background-color: $red;
-    color: white;
+  }
+  &.btn-yellow {
+    background-color: #ffa00e;
   }
 }
 
