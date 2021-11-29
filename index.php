@@ -6,24 +6,21 @@ function includeHeader($page)
 includeHeader('ishome')
 ?>
 
-<div class="layout home">
-  <img class="brand-logo" src="assets/imgs/logo.png" alt="">
-  <a href="question-1.php" class="btn btn-primary d-none d-md-block mx-auto mb-5 mb-xl-0">Jouer</a>
-  <div class="mt-auto d-flex flex-column flex-xl-row-reverse justify-content-xl-end align-items-xl-end">
-    <div class="align-self-center">
-      <img width="400" class="d-block m-auto m-xl-0 img-fluid pb-md-4 pb-xl-0" src="assets/imgs/bloc-a-gagner.png" alt="">
-    </div>
-    <div class="d-none d-xl-block">
-      <img class="img-fluid" width="800" src="assets/imgs/home-canape.png" alt="">
-    </div>
-    <div class="d-none d-md-block d-xl-none">
-      <img class="img-fluid" src="assets/imgs/home-canape-tablet.png" alt="">
-    </div>
-    <button class="btn btn-primary d-md-none mx-auto mt-5">Jouer</button>
-    <div class="d-md-none">
-      <img class="img-fluid" src="assets/imgs/home-canape-mobile.png" alt="">
+<div class="container d-flex align-items-center justify-content-center" style="height: 100vh;">
+  <div class=" w-100">
+    <h1>Pages :</h1>
+    <div class="list-group">
+      <a class="list-group-item list-group-item-action" href="/home.php">Home</a>
+      <a class="list-group-item list-group-item-action" href="/question-1.php">question-1</a>
+      <a class="list-group-item list-group-item-action" href="/question-2.php">question-2</a>
+      <a class="list-group-item list-group-item-action" href="/reponse-1.php">reponse-1</a>
+      <a class="list-group-item list-group-item-action" href="/inscription.php">inscription</a>
+      <a class="list-group-item list-group-item-action" href="/gagne-tas.php">gagne-tas</a>
     </div>
   </div>
 </div>
+
+</html>
+
 
 <?php include 'partials/footer.php'; ?>
