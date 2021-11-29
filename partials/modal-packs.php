@@ -1,6 +1,8 @@
-<span class="modal-btn" data-bs-toggle="modal" data-bs-target="#modal-packs">
-  <span>?</span>
-</span>
+<div class="modal-btn" data-bs-toggle="modal" data-bs-target="#modal-packs">
+  <div class="text-container">
+    <div>?</div>
+  </div>
+</div>
 
 <!-- Modal -->
 <div class="modal fade" id="modal-packs" tabindex="-1" aria-hidden="true">
