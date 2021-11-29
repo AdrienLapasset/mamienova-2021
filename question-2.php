@@ -3,7 +3,15 @@
 <div class="layout question-2">
   <img class="brand-logo" src="assets/imgs/logo.png" alt="">
   <div class="container d-flex flex-column">
-    <?php include 'partials/form-progress.php'; ?>
+
+    <?php
+    function includeFormProgress($step)
+    {
+      include("partials/form-progress.php");
+    }
+    includeFormProgress(2)
+    ?>
+
     <h1 class="mb-5">choisissez une question que vous
       n’avez jamais osé poser à Mamie Nova !</h1>
     <div class="questions-container align-self-center d-flex flex-column flex-md-row">

@@ -3,7 +3,13 @@
 <div class="layout inscription">
   <img class="brand-logo" src="assets/imgs/logo.png" alt="">
   <div class="container d-flex flex-column">
-    <?php include 'partials/form-progress.php'; ?>
+    <?php
+    function includeFormProgress($step)
+    {
+      include("partials/form-progress.php");
+    }
+    includeFormProgress(3)
+    ?>
     <form action="gagne-tas.php">
       <div class="form-block mx-auto">
         <h1>

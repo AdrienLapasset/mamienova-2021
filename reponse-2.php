@@ -3,7 +3,13 @@
 <div class="layout reponse reponse-2">
   <img class="brand-logo" src="assets/imgs/logo.png" alt="">
   <div class="container d-flex flex-column">
-    <?php include 'partials/form-progress.php'; ?>
+    <?php
+    function includeFormProgress($step)
+    {
+      include("partials/form-progress.php");
+    }
+    includeFormProgress(2)
+    ?>
     <h1 class="mb-5">
       Dis Mamie Nova,
       As-tu déjà été amoureuse ?

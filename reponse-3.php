@@ -3,8 +3,13 @@
 <div class="layout reponse reponse-3">
   <img class="brand-logo" src="assets/imgs/logo.png" alt="">
   <div class="container d-flex flex-column">
-    <?php include 'partials/form-progress.php'; ?>
-    <h1 class="mb-5">
+    <?php
+    function includeFormProgress($step)
+    {
+      include("partials/form-progress.php");
+    }
+    includeFormProgress(2)
+    ?> <h1 class="mb-5">
       Dis Mamie Nova, Quelle est la chose
       la plus folle que tu aies faite ?
     </h1>
