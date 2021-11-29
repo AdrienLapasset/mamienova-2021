@@ -14,14 +14,14 @@
 .brand-logo {
   max-width: 100%;
   z-index: 1;
-  width: 388px;
+  width: 370px;
   margin: 0 auto;
   padding: 15px;
   @include media-breakpoint-up($md) {
-    width: 258px;
+    width: 240px;
   }
   @include media-breakpoint-up($xl) {
-    width: 332px;
+    width: 300px;
   }
 }
 
@@ -31,7 +31,7 @@
   font-weight: 700;
   border: solid 3px #fff;
   border-radius: 20px;
-  box-shadow: 6.3px 7.8px 0 0 #1aa1f3;
+  box-shadow: 6.3px 7.8px 0 0 #1aa1f380;
   padding: 0 45px;
   text-transform: uppercase;
   color: white;

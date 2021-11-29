@@ -16,6 +16,8 @@ includeHeader('ishome')
       <a class="list-group-item list-group-item-action" href="/reponse-1.php">reponse-1</a>
       <a class="list-group-item list-group-item-action" href="/inscription.php">inscription</a>
       <a class="list-group-item list-group-item-action" href="/gagne-tas.php">gagne-tas</a>
+      <a class="list-group-item list-group-item-action" href="/gagne-ig.php">gagne-ig</a>
+      <a class="list-group-item list-group-item-action" href="/perdu.php">perdu</a>
     </div>
   </div>
 </div>
