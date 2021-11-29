@@ -9,7 +9,7 @@
       dans le formulaire de participation
       sous 6 à 8 semaines.</p>
     <a class="btn btn-red px-3" href="">mamienova.com</a>
-    <a class="btn btn-yellow mt-3 px-3" href="">
+    <a class="btn btn-yellow mx-3 px-3" href="">
       <img width="25" src="assets/icons/shop.png" alt="">
       craquez pour nos produits</a>
   </div>

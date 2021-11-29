@@ -1,45 +1,45 @@
 .form-progress {
-  margin: 50px 0 30px;
+  margin: 30px 0;
   display: flex;
   justify-content: center;
   position: relative;
   &:after {
     content: "";
-    width: 60%;
+    width: 55%;
     position: absolute;
-    height: 6px;
+    height: 4px;
     background-color: $red;
-    top: 20px;
+    top: 13px;
     margin: auto;
-    @include media-breakpoint-up($md) {
-      width: 300px;
+    @include media-breakpoint-up($xs) {
+      width: 220px;
     }
   }
   .step {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 150px;
+    width: 120px;
     .number-container {
       position: relative;
       z-index: 1;
       .bulle {
-        width: 40px;
+        width: 30px;
       }
       .number {
         position: absolute;
         top: 4px;
-        left: 14px;
+        left: 11px;
         color: white;
         font-family: "Poppins", sans-serif;
         font-weight: 900;
-        font-size: 22px;
+        font-size: 16px;
         opacity: 0.5;
       }
     }
     .title {
       color: rgba(255, 77, 3, 0.7);
-      font-size: 15px;
+      font-size: 12px;
       margin-top: 5px;
       font-family: "Poppins", sans-serif;
       font-weight: 400;
@@ -47,18 +47,18 @@
     }
     &.active {
       .bulle {
-        width: 100%;
+        width: 40px;
         position: relative;
         top: -5px;
       }
       .number {
         top: 0px;
-        left: 19px;
+        left: 15px;
         opacity: 1;
-        font-size: 30px;
+        font-size: 22px;
       }
       .title {
-        font-size: 17px;
+        font-size: 14px;
         color: $red;
       }
     }
