@@ -23,13 +23,10 @@
                 <aside>porteurs de l’offre avec jeu visible (voir ci-dessous)</aside>
                 <div class="carousel carousel-1">
                   <div>
-                    <img src="assets/imgs/carousel-1/ananas-passion.png" alt="">
+                    <img src="assets/imgs/carousel-1/MamieNova_pack_simul-ananas-passion.png" alt="">
                   </div>
                   <div>
-                    <img src="assets/imgs/carousel-1/creme-choco.png" alt="">
-                  </div>
-                  <div>
-                    <img src="assets/imgs/carousel-1/fondant-cafe.png" alt="">
+                    <img src="assets/imgs/carousel-1/MamieNova_pack_simul-fondant-cafe.png" alt="">
                   </div>
                   <div>
                     <img src="assets/imgs/carousel-1/MamieNova_pack_simul-creme-choco.png" alt="">
@@ -138,13 +135,13 @@
                     <img src="assets/imgs/carousel-2/3D_ya_peche_OG_03456770913304_R.png" alt="">
                   </div>
                   <div>
-                    <img src="assets/imgs/carousel-2/3D-Cr確e chocolat noir-x6.png" alt="">
+                    <img src="assets/imgs/carousel-2/3D-Creme chocolat noir-x6.png" alt="">
                   </div>
                   <div>
                     <img src="assets/imgs/carousel-2/3D-D 3.png" alt="">
                   </div>
                   <div>
-                    <img src="assets/imgs/carousel-2/3D-D-cr確e-choco-noir-OG.png" alt="">
+                    <img src="assets/imgs/carousel-2/3D-D-creme-choco-noir-OG.png" alt="">
                   </div>
                   <div>
                     <img src="assets/imgs/carousel-2/3456770913076_1.png" alt="">
