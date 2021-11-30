@@ -12,7 +12,7 @@
     includeFormProgress(2)
     ?>
 
-    <h1 class="mb-5">choisissez une question que vous
+    <h1 class="mb-5">choisissez une question que vous<br class="d-none d-xl-block" />
       n’avez jamais osé poser à Mamie Nova !</h1>
     <div class="questions-container align-self-center d-flex flex-column flex-md-row">
       <a href="reponse-1.php">

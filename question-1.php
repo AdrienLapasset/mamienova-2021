@@ -13,7 +13,7 @@
     ?>
 
     <div class="form-block d-flex flex-column align-items-center mx-auto">
-      <h1 class="mb-4">Vive les Mamies ! Pour leur fête,
+      <h1 class="mb-4">Vive les Mamies ! Pour leur fête,<br class="d-none d-sm-block" />
         Mamie Nova présente « Dis, Mamie ? »</h1>
       <p>Au programme : une délicieuse complicité, des moments savoureux,<br class="d-none d-xl-block" />
         et des anecdotes inédites !<br class="d-none d-xl-block" />

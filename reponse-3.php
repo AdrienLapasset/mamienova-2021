@@ -10,7 +10,7 @@
     }
     includeFormProgress(2)
     ?> <h1 class="mb-5">
-      Dis Mamie Nova, Quelle est la chose
+      Dis Mamie Nova, Quelle est la chose<br class="d-none d-xl-block" />
       la plus folle que tu aies faite ?
     </h1>
     <div class="form-block mx-auto">

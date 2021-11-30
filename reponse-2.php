@@ -11,7 +11,7 @@
     includeFormProgress(2)
     ?>
     <h1 class="mb-5">
-      Dis Mamie Nova,
+      Dis Mamie Nova,<br class="d-none d-xl-block" />
       As-tu déjà été amoureuse ?
     </h1>
     <div class="form-block mx-auto">
