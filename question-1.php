@@ -37,7 +37,7 @@
             je n’ai pas de<br />code unique
             <?php include 'partials/modal-packs.php'; ?>
           </label>
-          <img class="w-50" src="assets/imgs/pots-sans-code.png" alt="">
+          <img class="no-code-img" src="assets/imgs/pots-sans-code.png" alt="">
         </div>
       </div>
     </div>
