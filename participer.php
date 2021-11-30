@@ -4,8 +4,8 @@
   <img class="brand-logo" src="assets/imgs/logo.png" alt="">
   <h1 class="my-4">Comment participer ?</h1>
   <div class="container d-flex flex-column align-items-center">
-    <div class="row g-4">
-      <div class="col-lg-6">
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-9 col-lg-6 col-xl-5">
         <div class="block">
           <h2>
             Pour participer<br />
@@ -94,7 +94,7 @@
           </ol>
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-md-9 col-lg-6 col-xl-5">
         <div class="block h-100">
           <h2>
             Pour participer<br />
