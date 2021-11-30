@@ -6,4 +6,11 @@
       width: 500px;
     }
   }
+  .a-gagner-container {
+    @include media-breakpoint-up($xxl) {
+      position: relative;
+      top: -130px;
+      right: -130px;
+    }
+  }
 }

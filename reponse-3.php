@@ -2,7 +2,7 @@
 
 <div class="layout reponse reponse-3">
   <img class="brand-logo" src="assets/imgs/logo.png" alt="">
-  <div class="container d-flex flex-column">
+  <div class="container d-flex flex-column flex-grow-1 justify-content-center">
     <?php
     function includeFormProgress($step)
     {
