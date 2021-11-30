@@ -42,13 +42,13 @@
               <a class="nav-link" href="participer.php">comment participer ?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link social" href="#"><img src="assets/imgs/instagram.png" alt=""></a>
+              <a class="nav-link social" href="https://www.instagram.com/mamienovafrance/?hl=fr"><img src="assets/imgs/instagram.png" alt=""></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link social" href="#"><img src="assets/imgs/facebook.png" alt=""></a>
+              <a class="nav-link social" href="https://www.facebook.com/mamienova/"><img src="assets/imgs/facebook.png" alt=""></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link social" href="#"><img src="assets/imgs/www.png" alt=""></a>
+              <a class="nav-link social" href="https://www.mamienova.com/"><img src="assets/imgs/www.png" alt=""></a>
             </li>
           </div>
         </div>
