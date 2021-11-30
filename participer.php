@@ -21,7 +21,7 @@
               <div class="d-flex flex-column">
                 <p>Achetez simultanément 2 produits Mamie Nova</p>
                 <aside>porteurs de l’offre avec jeu visible (voir ci-dessous)</aside>
-                <div class="carousel">
+                <div class="carousel carousel-1">
                   <div>
                     <img src="assets/imgs/carousel-1/ananas-passion.png" alt="">
                   </div>
@@ -32,7 +32,40 @@
                     <img src="assets/imgs/carousel-1/fondant-cafe.png" alt="">
                   </div>
                   <div>
-                    <img src="assets/imgs/carousel-1/ananas-passion.png" alt="">
+                    <img src="assets/imgs/carousel-1/MamieNova_pack_simul-creme-choco.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-1/MamieNova_pack_simul-creme-chocobanane.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-1/MamieNova_pack_simul-creme-vanilleBourbon.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-1/MamieNova_pack_simul-fondant_caramel.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-1/MamieNova_pack_simul-fondant_choco.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-1/MamieNova_pack_simul-fondant-chocomenthe.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-1/MamieNova_pack_simul-gourm_Cerises.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-1/MamieNova_pack_simul-gourm_citron.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-1/MamieNova_pack_simul-gourm_coco.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-1/MamieNova_pack_simul-gourm_Mandarine.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-1/MamieNova_pack_simul-gourm_peche.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-1/MamieNova_pack_simul-gourm-Framboise.png" alt="">
                   </div>
                 </div>
               </div>
@@ -82,18 +115,84 @@
                   des gammes Yaourt aux fruits, Crème ou Fondant dans l’un des magasins participants à l’opération.
                   <?php include 'partials/modal-packs.php'; ?>
                 </aside>
-                <div class="carousel">
+                <div class="carousel carousel-2">
                   <div>
-                    <img src="assets/imgs/carousel-2/violet.png" alt="">
+                    <img src="assets/imgs/carousel-2/3D_D_ya_cerise_griotte_offredemamie copie.png" alt="">
                   </div>
                   <div>
-                    <img src="assets/imgs/carousel-2/rouge.png" alt="">
+                    <img src="assets/imgs/carousel-2/3D_D_ya_gd_x6_dec_ftrouge copie.png" alt="">
                   </div>
                   <div>
-                    <img src="assets/imgs/carousel-2/chocolat-noir.png" alt="">
+                    <img src="assets/imgs/carousel-2/3D_D_ya_noix_de_coco_offredemamie copie.png" alt="">
                   </div>
                   <div>
-                    <img src="assets/imgs/carousel-1/ananas-passion.png" alt="">
+                    <img src="assets/imgs/carousel-2/3D_D_yagd_cerise_offregde copie.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/3D_D_yagd_noix_de_coco_offregde copie.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/3D_ya_gd_x6_ftjaunes_03456774801249_R.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/3D_ya_peche_OG_03456770913304_R.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/3D-Cr確e chocolat noir-x6.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/3D-D 3.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/3D-D-cr確e-choco-noir-OG.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/3456770913076_1.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/3456770913168_1.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/3456770913175_2.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/3456770913182_1.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/3456770913199_1.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/03456770913359.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/03456770913366.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/03456770913403.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/03456770913434.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/3456770913595_1.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/3456770913618_1.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/3456770913625_1.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/F-chocolat-menthe-pack-min.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/GAF-Ananas-Passion-pack-min-2.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/GAF-Mandarine-Citron-Vert-pack-min-1-2.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/GAF-Peche-pack-min.png" alt="">
                   </div>
                 </div>
               </div>

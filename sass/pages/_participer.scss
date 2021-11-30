@@ -46,10 +46,9 @@
   }
   .carousel {
     max-width: 333px;
-    margin: 10px 0 0 22px;
     img:not(.arrow) {
-      height: 70px;
-      margin: 0 5px;
+      height: 60px;
+      margin: 0 10px;
     }
     .arrow {
       cursor: pointer;
@@ -62,6 +61,19 @@
       }
       &.next {
         right: -15px;
+      }
+    }
+    &.carousel-1 {
+      margin: 20px 0 10px 20px;
+    }
+    &.carousel-2 {
+      margin-left: 10px;
+      img:not(.arrow) {
+        height: 100px;
+        margin: 0;
+      }
+      .arrow {
+        top: 40px;
       }
     }
   }

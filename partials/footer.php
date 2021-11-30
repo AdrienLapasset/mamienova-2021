@@ -21,11 +21,19 @@
 <!-- Slick Carousel settings -->
 <script type="text/javascript">
   $(document).ready(function() {
-    $('.carousel').slick({
+    $('.carousel-1').slick({
       infinite: true,
       slidesToShow: 3,
       slidesToScroll: 1,
       variableWidth: true,
+      prevArrow: '<img class="arrow prev" src="assets/icons/carousel-next-arrow.png">',
+      nextArrow: '<img class="arrow next" src="assets/icons/carousel-next-arrow.png">'
+    });
+    $('.carousel-2').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      // variableWidth: true,
       prevArrow: '<img class="arrow prev" src="assets/icons/carousel-next-arrow.png">',
       nextArrow: '<img class="arrow next" src="assets/icons/carousel-next-arrow.png">'
     });
