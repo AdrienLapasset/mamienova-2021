@@ -63,9 +63,13 @@
               <span></span>
               <span></span>
               <span></span>
+              <span></span>
+              <span></span>
             </div>
             <input class="code mt-1" type="text" id="" name="">
             <div class="dotted-line">
+              <span></span>
+              <span></span>
               <span></span>
               <span></span>
               <span></span>

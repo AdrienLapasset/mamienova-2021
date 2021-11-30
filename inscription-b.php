@@ -52,7 +52,12 @@
           </h2>
           <div class="row g-1">
             <div class="col-12">
-              <input type="text" id="" name="" placeholder="Enseignes  (Auchan, Carrefour, ect..)">
+              <select name="" id="">
+                <option class="placeholder" value="">Enseignes</option>
+                <option value="">Auchan</option>
+                <option value="">Carrefour</option>
+                <option value="">E.Leclerc</option>
+              </select>
             </div>
             <div class="col-6">
               <input type="text" id="" name="" placeholder="Ville*">
