@@ -8,9 +8,9 @@
       <div class="col-lg-6">
         <div class="block">
           <h2>
-            Pour participer
-            à l’un des instants gagnants
-            (1 gagnant par jour)
+            Pour participer<br />
+            à l’un des instants gagnants<br />
+            <span class="small">(1 gagnant par jour)</span>
           </h2>
           <ol>
             <li>
@@ -97,7 +97,7 @@
       <div class="col-lg-6">
         <div class="block h-100">
           <h2>
-            Pour participer
+            Pour participer<br />
             au tirage au sort
           </h2>
           <ol>
