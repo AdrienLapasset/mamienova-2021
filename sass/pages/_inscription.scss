@@ -61,17 +61,10 @@
       background-color: rgba(255, 255, 255, 0.71);
     }
   }
-  .checkbox-container {
-    display: flex;
-    input {
-      flex: 0 0 30px;
-      position: relative;
-      top: 2px;
-      height: 100%;
-    }
-    label {
-      font-size: 10px;
-    }
+  .form-check-label {
+    font-size: 10px;
+    position: relative;
+    top: -2px;
   }
   .inputfile {
     width: 0.1px;

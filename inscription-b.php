@@ -21,9 +21,9 @@
           <div class="row g-1">
             <div class="col-4 d-flex align-items-center">
               <label class="me-1" for="">Mr.</label>
-              <input class="me-1 me-md-3" type="radio" id="" name="" value="">
+              <input class="me-1 me-md-3" type="radio" id="gender" name="gender" value="male">
               <label class="me-1" for="">Mme.</label>
-              <input type="radio" id="" name="" value="">
+              <input type="radio" id="gender" name="gender" value="female">
             </div>
             <div class="col-8">
               <input type="text" id="" name="" placeholder="Nom*">
@@ -80,17 +80,21 @@
             </div>
           </div>
         </div>
-        <div class="checkbox-container">
-          <input type="checkbox" id="scales" name="scales">
-          <label for="scales">En cochant cette case, vous acceptez la politique de protections des données personnelles</label>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            En cochant cette case, vous acceptez la <a href="#">politique de protections des données personnelles</a>
+          </label>
         </div>
-        <div class="checkbox-container">
-          <input type="checkbox" id="scales" name="scales">
-          <label for="scales">En cochant cette case, vous acceptez le règlement du jeu.</label>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            En cochant cette case, vous acceptez le <a href="#">règlement</a> du jeu. </label>
         </div>
-        <div class="checkbox-container">
-          <input type="checkbox" id="scales" name="scales">
-          <label for="scales">Je souhaite recevoir des offres et être abonné(e) aux dernières nouveautés Mamie Nova</label>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Je souhaite recevoir des offres et être abonné(e) aux dernières nouveautés Mamie Nova </label>
         </div>
       </div>
       <input class="btn btn-red mx-auto d-block my-4" type="submit" value="valider"></input>

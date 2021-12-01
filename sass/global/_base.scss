@@ -5,10 +5,9 @@ body {
 }
 
 a {
-  color: white;
+  color: $blue;
   &:hover {
-    text-decoration: none;
-    color: white;
+    color: $blue;
   }
 }
 
