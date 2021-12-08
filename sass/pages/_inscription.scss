@@ -1,5 +1,6 @@
 .inscription {
   @include pageBackground("../assets/imgs/bg-inscription.jpg");
+  background-position: left !important;
   .form-block {
     max-width: 600px;
   }
