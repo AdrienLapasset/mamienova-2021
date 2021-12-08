@@ -50,7 +50,10 @@
     }
   }
   .carousel {
-    max-width: 333px;
+    max-width: 110px;
+    @include media-breakpoint-up($sm) {
+      max-width: 333px;
+    }
     img:not(.arrow) {
       height: 60px;
       margin: 0 10px;
