@@ -124,7 +124,7 @@
         </div>
       </div>
     </div>
-    <a class="btn btn-red my-5 px-3" href="">participer</a>
+    <a class="btn btn-red my-5 px-3" href="question-1.php">participer</a>
   </div>
 </div>
 
