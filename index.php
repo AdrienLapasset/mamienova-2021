@@ -11,6 +11,7 @@ includeHeader('ishome')
     <h1>Pages :</h1>
     <div class="list-group">
       <a class="list-group-item list-group-item-action" href="home.php">Home</a>
+      <a class="list-group-item list-group-item-action" href="home-rdv.php">Home-rdv</a>
       <a class="list-group-item list-group-item-action" href="question-1.php">question-1</a>
       <a class="list-group-item list-group-item-action" href="question-2.php">question-2</a>
       <a class="list-group-item list-group-item-action" href="reponse-1.php">reponse-1</a>

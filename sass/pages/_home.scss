@@ -13,4 +13,13 @@
       right: -130px;
     }
   }
+  .a-gagner-flex-container {
+    flex: 1;
+    img {
+      @include media-breakpoint-up($xxl) {
+        position: relative;
+        right: 100px;
+      }
+    }
+  }
 }
