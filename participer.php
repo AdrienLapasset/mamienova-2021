@@ -114,63 +114,6 @@
                 </aside>
                 <div class="carousel carousel-2">
                   <div>
-                    <img src="assets/imgs/carousel-2/3D_D_ya_cerise_griotte_offredemamie copie.png" alt="">
-                  </div>
-                  <div>
-                    <img src="assets/imgs/carousel-2/3D_D_ya_gd_x6_dec_ftrouge copie.png" alt="">
-                  </div>
-                  <div>
-                    <img src="assets/imgs/carousel-2/3D_D_ya_noix_de_coco_offredemamie copie.png" alt="">
-                  </div>
-                  <div>
-                    <img src="assets/imgs/carousel-2/3D_D_yagd_cerise_offregde copie.png" alt="">
-                  </div>
-                  <div>
-                    <img src="assets/imgs/carousel-2/3D_D_yagd_noix_de_coco_offregde copie.png" alt="">
-                  </div>
-                  <div>
-                    <img src="assets/imgs/carousel-2/3D_ya_gd_x6_ftjaunes_03456774801249_R.png" alt="">
-                  </div>
-                  <div>
-                    <img src="assets/imgs/carousel-2/3D_ya_peche_OG_03456770913304_R.png" alt="">
-                  </div>
-                  <div>
-                    <img src="assets/imgs/carousel-2/3D-Creme chocolat noir-x6.png" alt="">
-                  </div>
-                  <div>
-                    <img src="assets/imgs/carousel-2/3D-D 3.png" alt="">
-                  </div>
-                  <div>
-                    <img src="assets/imgs/carousel-2/3D-D-creme-choco-noir-OG.png" alt="">
-                  </div>
-                  <div>
-                    <img src="assets/imgs/carousel-2/3456770913076_1.png" alt="">
-                  </div>
-                  <div>
-                    <img src="assets/imgs/carousel-2/3456770913168_1.png" alt="">
-                  </div>
-                  <div>
-                    <img src="assets/imgs/carousel-2/3456770913175_2.png" alt="">
-                  </div>
-                  <div>
-                    <img src="assets/imgs/carousel-2/3456770913182_1.png" alt="">
-                  </div>
-                  <div>
-                    <img src="assets/imgs/carousel-2/3456770913199_1.png" alt="">
-                  </div>
-                  <div>
-                    <img src="assets/imgs/carousel-2/03456770913359.png" alt="">
-                  </div>
-                  <div>
-                    <img src="assets/imgs/carousel-2/03456770913366.png" alt="">
-                  </div>
-                  <div>
-                    <img src="assets/imgs/carousel-2/03456770913403.png" alt="">
-                  </div>
-                  <div>
-                    <img src="assets/imgs/carousel-2/03456770913434.png" alt="">
-                  </div>
-                  <div>
                     <img src="assets/imgs/carousel-2/3456770913595_1.png" alt="">
                   </div>
                   <div>
@@ -180,16 +123,22 @@
                     <img src="assets/imgs/carousel-2/3456770913625_1.png" alt="">
                   </div>
                   <div>
-                    <img src="assets/imgs/carousel-2/F-chocolat-menthe-pack-min.png" alt="">
-                  </div>
-                  <div>
                     <img src="assets/imgs/carousel-2/GAF-Ananas-Passion-pack-min-2.png" alt="">
                   </div>
                   <div>
-                    <img src="assets/imgs/carousel-2/GAF-Mandarine-Citron-Vert-pack-min-1-2.png" alt="">
+                    <img src="assets/imgs/carousel-2/3D_D_ya_cerise_griotte_offredemamie copie.png" alt="">
                   </div>
                   <div>
-                    <img src="assets/imgs/carousel-2/GAF-Peche-pack-min.png" alt="">
+                    <img src="assets/imgs/carousel-2/3D_ya_peche_OG_03456770913304_R.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/3D_D_ya_noix_de_coco_offredemamie copie.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/03456770913366.png" alt="">
+                  </div>
+                  <div>
+                    <img src="assets/imgs/carousel-2/03456770913359.png" alt="">
                   </div>
                 </div>
               </div>
