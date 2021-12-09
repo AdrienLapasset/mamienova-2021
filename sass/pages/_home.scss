@@ -6,20 +6,4 @@
       width: 500px;
     }
   }
-  .a-gagner-container {
-    @include media-breakpoint-up($xxl) {
-      position: relative;
-      top: -80px;
-      right: -130px;
-    }
-  }
-  .a-gagner-flex-container {
-    flex: 1;
-    img {
-      @include media-breakpoint-up($xxl) {
-        position: relative;
-        right: 100px;
-      }
-    }
-  }
 }
