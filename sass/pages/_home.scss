@@ -6,4 +6,8 @@
       width: 500px;
     }
   }
+  .btn.disabled {
+    opacity: 1;
+    border-color: white;
+  }
 }

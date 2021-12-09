@@ -19,7 +19,7 @@ includeHeader('ishome')
     <div class="d-none d-md-block d-xl-none">
       <img class="img-fluid" src="assets/imgs/home-canape-tablet.png" alt="">
     </div>
-    <button class="btn btn-primary d-md-none mx-auto mt-5">Jouer</button>
+    <a href="question-1.php" class="btn btn-primary d-md-none mx-auto mt-5">Jouer</a>
     <div class="d-md-none">
       <img class="img-fluid mt-4" src="assets/imgs/home-canape-mobile.png" alt="">
     </div>
