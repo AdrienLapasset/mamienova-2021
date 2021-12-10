@@ -64,6 +64,9 @@
                   <div>
                     <img src="assets/imgs/carousel-1/MamieNova_pack_simul-gourm-Framboise.png" alt="">
                   </div>
+                  <div>
+                    <img src="assets/imgs/carousel-1/GAF-panache-pack-min.png" alt="">
+                  </div>
                 </div>
               </div>
             </li>
