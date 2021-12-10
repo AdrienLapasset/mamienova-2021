@@ -96,6 +96,9 @@
           <label class="form-check-label" for="flexCheckDefault">
             Je souhaite recevoir des offres et être abonné(e) aux dernières nouveautés Mamie Nova </label>
         </div>
+        <label class="form-check-label mt-2">
+          Vos données personnelles sont traitées conformément à la réglementation en vigueur de manière licite, loyale et proportionnée. Pour en savoir plus sur les traitements mis en œuvre et sur vos droits, vous pouvez consulter notre Politique de vie privée <a href="#">ici</a>, et notre règlement de jeu <a href="#">ici</a>
+        </label>
       </div>
       <input class="btn btn-red mx-auto d-block my-4" type="submit" value="valider"></input>
     </form>
